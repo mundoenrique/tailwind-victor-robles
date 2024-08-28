@@ -10,6 +10,9 @@ module.exports = {
         'azul-claro': '#37bcf9',
         'azul-oscuro': '#0370b9',
       },
+      animation: {
+        'spin-low': 'spin 2s linear infinite',
+      },
     },
   },
   plugins: [],
