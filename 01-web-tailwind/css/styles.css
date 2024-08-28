@@ -452,6 +452,47 @@ video {
   }
     */
 
+/*FUENTES*/
+
+@font-face {
+  font-family: 'TrebuchetMS';
+
+  src: url('fonts/TrebuchetMS.ttf');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+
+  src: url('fonts/BebasNeue.otf');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WebSymbolsRegular';
+
+  src: url('fonts/websymbols-regular-webfont.eot');
+
+  src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/websymbols-regular-webfont.woff') format('woff'),
+      url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+      url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+.symbol {
+  font-family: 'WebSymbolsRegular';
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -607,17 +648,38 @@ video {
   height: 5rem;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-row {
   flex-direction: row;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .bg-body-pattern {
@@ -628,11 +690,39 @@ video {
   background-attachment: scroll;
 }
 
+.pb-0\.5 {
+  padding-bottom: 0.125rem;
+}
+
+.pt-0\.5 {
+  padding-top: 0.125rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
