@@ -12,6 +12,20 @@ module.exports = {
       },
       animation: {
         'spin-low': 'spin 2s linear infinite',
+        'from-bellow': 'fromBellow 500ms linear',
+        'from-right': 'fromRight 500ms linear',
+      },
+      keyframes: {
+        fromBellow: {
+          '0%': { transform: 'translateY(0%)' },
+          '50%': { transform: 'translateY(200%)' },
+          '100%': { transform: 'translateY(0%)' },
+        },
+        fromRight: {
+          '0%': { transform: 'translateX(200%)' },
+          '50%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
       },
     },
   },

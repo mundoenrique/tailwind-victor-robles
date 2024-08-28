@@ -735,22 +735,8 @@ video {
   }
 }
 
-.animate-spin {
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .animate-spin-low {
   animation: spin 2s linear infinite;
-}
-
-.animate-none {
-  animation: none;
 }
 
 .cursor-pointer {
@@ -857,6 +843,38 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:animate-none {
-  animation: none;
+@keyframes fromBellow {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.group:hover .group-hover\:animate-from-bellow {
+  animation: fromBellow 500ms linear;
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(200%);
+  }
+
+  50% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.group:hover .group-hover\:animate-from-right {
+  animation: fromRight 500ms linear;
 }
