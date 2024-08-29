@@ -710,6 +710,26 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 768px) {
+  .card {
+    margin: 0.5rem;
+    height: 10rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 0.5rem;
+    height: 10rem;
+  }
+}
+
 .card-icon {
   font-family: 'WebSymbolsRegular';
   margin-left: auto;
@@ -753,6 +773,27 @@ video {
   color: rgb(55 188 249 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .card-icon {
+    margin-top: 0.75rem;
+    height: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-icon {
+    margin-top: 3rem;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-icon {
+    margin-top: 0.75rem;
+    height: 5rem;
+  }
+}
+
 .card-category {
   height: 3rem;
   width: 100%;
@@ -785,6 +826,31 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .card-category {
+    height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-category {
+    margin: 1.25rem;
+    height: 3rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-category {
+    height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 .card-description {
   font-family: 'TrebuchetMS';
   text-align: center;
@@ -813,6 +879,35 @@ video {
   animation: showCardDesc 400ms linear;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .card-description {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-description {
+    margin-top: 0.375rem;
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card-description {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-description {
+    display: none;
+  }
 }
 
 .float-right {
