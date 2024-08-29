@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./src/styles.css -o ./css/styles.css --watch"
+    "css:dev": "tailwindcss -i ./src/styles.css -o ./css/styles.css --watch",
+    "css:prod": "tailwindcss -i ./src/styles.css -o ./css/styles.min.css --minify"
   },
   "author": "",
   "license": "ISC",
