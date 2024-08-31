@@ -82,4 +82,9 @@
     font-family: 'TrebuchetMS';
     @apply text-center text-azul-oscuro text-base transition duration-300 group-hover:text-white group-hover:animate-show-card-description xs:hidden md:hidden lg:block lg:text-sm lg:mt-1.5 xl:text-base xl:mt-1;
   }
+
+  .articles-header {
+    background: url('../img/pxgray.png'), white;
+    @apply block bebas w-full h-20 text-center text-5xl font-medium tracking-widest pt-5 border shadow-header3D;
+  }
 }
