@@ -1064,8 +1064,55 @@ video {
   outline-offset: 2px;
 }
 
-.absolute {
-  position: absolute;
+.login-button {
+  font-family: 'TrebuchetMS';
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+  height: 2rem;
+  width: 6rem;
+  cursor: pointer;
+  border-radius: 0px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(3 112 185 / var(--tw-border-opacity));
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: #37bcf9 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(55 188 249 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #0370b9 var(--tw-gradient-to-position);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.login-button:hover {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.login-link {
+  margin-left: 1rem;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.login-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(3 112 185 / var(--tw-text-opacity));
+  text-decoration-line: underline;
 }
 
 .order-1 {
@@ -1099,6 +1146,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .ml-11 {
@@ -1167,10 +1218,6 @@ video {
 
 .h-7 {
   height: 1.75rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .min-h-full {
