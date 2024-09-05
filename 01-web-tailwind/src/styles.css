@@ -116,4 +116,8 @@
     background: url('../img/pxgray.png'), white;
     @apply bebas block h-11 leading-10 text-3xl font-medium tracking-widest pl-3.5 pt-1 mb-3.5 border shadow-header3D;
   }
+
+  .aside-box {
+    @apply w-10/12 h-60 mt-5 mb-7 mx-auto pt-1 bg-white shadow-box;
+  }
 }
