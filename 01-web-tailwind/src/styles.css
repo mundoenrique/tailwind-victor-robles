@@ -118,7 +118,7 @@
   }
 
   .aside-box {
-    @apply w-10/12 h-60 mt-5 mb-7 mx-auto pt-1 bg-white shadow-box;
+    @apply w-10/12 max-w-xs h-60 mt-5 mb-7 mx-auto pt-1 bg-white shadow-box xs:w-60;
   }
 
   .login-icon {
