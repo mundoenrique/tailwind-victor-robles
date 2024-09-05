@@ -928,6 +928,67 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.article-item {
+  margin: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 0.625rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.article-data {
+  float: right;
+  margin: -0.625rem;
+  height: 2.5rem;
+  border-bottom-left-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.article-data span {
+  margin: 0.625rem;
+}
+
+.article-head {
+  margin: 0.25rem;
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.article-head a {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(3 112 185 / var(--tw-text-opacity));
+}
+
+.article-head a:hover {
+  text-decoration-line: underline;
+}
+
+.article-description {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: block;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
 .order-1 {
   order: 1;
 }
@@ -944,28 +1005,12 @@ video {
   float: left;
 }
 
-.-m-2\.5 {
-  margin: -0.625rem;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
-.m-2\.5 {
-  margin: 0.625rem;
-}
-
 .m-5 {
   margin: 1.25rem;
 }
 
 .m-7 {
   margin: 1.75rem;
-}
-
-.m-1 {
-  margin: 0.25rem;
 }
 
 .mx-auto {
@@ -1009,14 +1054,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .block {
   display: block;
 }
@@ -1025,20 +1062,12 @@ video {
   display: flex;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-20 {
   height: 5rem;
 }
 
 .h-28 {
   height: 7rem;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .min-h-full {
@@ -1155,21 +1184,8 @@ video {
   border-radius: 0.125rem;
 }
 
-.rounded-bl-lg {
-  border-bottom-left-radius: 0.5rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
 .border-8 {
   border-width: 8px;
-}
-
-.border-gray-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .border-white {
@@ -1185,16 +1201,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-banner {
@@ -1213,14 +1219,6 @@ video {
   background-position: -200px -200px;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-2\.5 {
-  padding: 0.625rem;
-}
-
 .pb-0\.5 {
   padding-bottom: 0.125rem;
 }
@@ -1231,10 +1229,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1252,45 +1246,17 @@ video {
   line-height: 2.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .font-normal {
   font-weight: 400;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
 }
 
 .tracking-wider {
   letter-spacing: 0.05em;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-azul-oscuro {
-  --tw-text-opacity: 1;
-  color: rgb(3 112 185 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -1323,10 +1289,6 @@ video {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
 }
 
 @keyframes fromBellow {
