@@ -120,4 +120,12 @@
   .aside-box {
     @apply w-10/12 h-60 mt-5 mb-7 mx-auto pt-1 bg-white shadow-box;
   }
+
+  .login-icon {
+    @apply symbol text-center absolute ml-7 mt-1 h-8;
+  }
+
+  .login-input {
+    @apply block mx-auto mt-5 w-10/12 h-8 border border-gray-300 shadow-inner pl-7 rounded-md text-gray-500 transition duration-300 outline-none focus:outline-none focus:text-gray-600;
+  }
 }
