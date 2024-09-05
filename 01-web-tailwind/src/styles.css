@@ -111,4 +111,9 @@
   .article-description {
     @apply block mt-3 mb-3 text-base font-sans font-normal;
   }
+
+  .aside-header {
+    background: url('../img/pxgray.png'), white;
+    @apply bebas block h-11 leading-10 text-3xl font-medium tracking-widest pl-3.5 pt-1 mb-3.5 border shadow-header3D;
+  }
 }
