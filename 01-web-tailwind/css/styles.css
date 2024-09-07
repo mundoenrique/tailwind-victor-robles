@@ -1184,6 +1184,31 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .footer-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75rem;
+    width: 91.666667%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-box {
+    margin: 2.5rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75rem;
+    width: 91.666667%;
+  }
+}
+
 .footer-header {
   background: url('../img/pxgray.png'), white;
   font-family: 'BebasNeue';
@@ -1333,8 +1358,8 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .block {
@@ -1365,16 +1390,12 @@ video {
   height: 1.75rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-80 {
+  height: 20rem;
 }
 
 .h-auto {
   height: auto;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .min-h-full {
@@ -1733,8 +1754,18 @@ video {
     flex-direction: row;
   }
 
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }
 
