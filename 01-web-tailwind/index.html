@@ -196,19 +196,19 @@
     </main>
     <!-- Fin contenido principal -->
     <!-- Inicio pie de pagina -->
-    <footer id="footer">
-      <div class="container mx-auto">
-        <div class="menu-footer">
-          <h5>Menú</h5>
-          <ul>
+    <footer id="footer" class="w-full h-auto bg-black text-white overflow-hidden">
+      <div class="container w-11/12 mx-auto flex flex-row">
+        <div id="menu-footer" class="footer-box">
+          <h5 class="footer-header">Menú</h5>
+          <ul class="footer-menu">
             <li><a href="javascript:">Inicio</a></li>
-            <li><a href="javascript:">BLOG</a></li>
+            <li><a href="javascript:">Blog</a></li>
             <li><a href="javascript:">Formación</a></li>
             <li><a href="javascript:">Contacto</a></li>
           </ul>
         </div>
-        <div id="location">
-          <h5>¿Dónde estamos?</h5>
+        <div id="location" class="footer-box">
+          <h5 class="footer-header">¿Dónde estamos?</h5>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11095.57724435264!2d-66.91408664069758!3d10.510199031859011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1725564315488!5m2!1ses!2sve"
             width="600"
@@ -217,22 +217,27 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            class="w-full h-80 m-3 border-4 border-gray-400 rounded-md shadow-md"
           ></iframe>
         </div>
-        <div id="info">
-          <h5>Dessarrollado con</h5>
-          <p>
-            <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="html5" />
+        <div id="info" class="footer-box">
+          <h5 class="footer-header">Dessarrollado con</h5>
+          <p class="mb-6">
+            <img
+              class="block mx-auto"
+              src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png"
+              alt="html5"
+            />
           </p>
-          <h5>Optimizado para</h5>
-          <p>
+          <h5 class="footer-header">Optimizado para</h5>
+          <div class="browsers flex flex-row space-x-5 mb-6">
             <a href="javascript:"><img src="img/firefox-icon.png" alt="Firefox" />Firefox</a>
             <a href="javascript:"><img src="img/chrome.png" alt="Chrome" />Chrome</a>
             <a href="javascript:"><img src="img/Opera_256x256.png" alt="Opera" />Opera</a>
             <a href="javascript:"><img src="img/android.png" alt="Android" />Android</a>
             <a href="javascript:"><img src="img/ios.png" alt="IOS" />IOS</a>
-          </p>
-          <h5>Autor</h5>
+          </div>
+          <h5 class="footer-header">Autor</h5>
           <p>&copy; Enrique Peñaloza - mundoenrique-systems.com.es</p>
         </div>
       </div>
